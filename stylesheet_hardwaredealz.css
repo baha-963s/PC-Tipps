@@ -21,6 +21,8 @@ body {
             text-align: center;
             padding: 10px 0;
             font-size: 1.2em;
+            position: sticky;
+            top: 0;
         }
 
         #zurstartseite a {
