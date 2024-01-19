@@ -23,6 +23,7 @@
             font-size: 1.2em;
             position: sticky;
             top: 0;
+            z-index: 2;
         }
 
         #zurstartseite a {
@@ -64,6 +65,7 @@
             position: absolute;
             margin-left: 48%;
             margin-top:-8%;
+            z-index:  1;
 
         }
         #Bild2{
