@@ -1,0 +1,83 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #ccc;
+        }
+
+        header {
+            background-color: white;
+            color: #000;
+            text-align: center;
+            padding: 20px 0;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        #zurstartseite {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 1.2em;
+        }
+
+        #zurstartseite a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #zurstartseite a:hover {
+            border: 2px solid blue;
+            padding: 8px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        
+        #inhalt-container {
+            background-color: #fff; 
+            width: 75%; 
+            margin: 2% auto; 
+            padding: 20px; 
+            box-sizing: border-box;
+            border-radius: 20px;
+            h2{
+                text-align: center;
+            }
+            
+        }
+        #text{
+                color: grey;
+                text-align:justify;
+                margin-left:5%;
+                margin-right:5%;
+                margin-bottom: 5%;
+            }
+        #text2{
+           text-align: left;
+            }
+        #Bild{
+            position: absolute;
+            margin-left: 48%;
+            margin-top:-8%;
+
+        }
+        #Bild2{
+            margin-top:2%;
+            margin-left: 2.5%;
+            margin-bottom: 3%;
+        }
+
+         h3{
+        text-align: left;
+        color: black;
+        margin-top: 4%;
+        margin-bottom: 1%;
+        }
+        h3 + #ende{
+            text-align: center;
+            margin-top: 15%;
+        }
+      

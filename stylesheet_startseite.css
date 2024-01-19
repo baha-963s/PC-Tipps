@@ -1,0 +1,66 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #ccc; /* Grauer Hintergrund */
+    }
+
+    header {
+      background-color: white; /* Weißer Hintergrund */
+      color: #000; /* Schwarzer Text */
+      text-align: center;
+      padding: 20px 0;
+      font-weight: bold;
+      font-size: 1.6em;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px 40px; /* Anpassung des Padding für den Abstand zu den Seiten */
+    }
+    
+    .flex-item:nth-child(-n+3) {
+      border-color: #ccc;
+      margin-top: 50px; /* Abstand nach oben */
+      margin-bottom: 50px; /* Abstand nach unten */
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      font-size: 1.4em;
+      background-color: #ccc;
+     
+    }
+
+
+    .flex-item {
+      box-sizing: border-box;
+      width: calc(33.333% - 20px); /* 3 Flexboxen pro Reihe mit 20px Abstand */
+      min-height: 60px;
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 15px;
+      background-color: white; /* Weißer Hintergrund */
+      text-align: center;
+      
+    }
+    .flex-item a {color: #000;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+    .flex-item+#klick:hover {
+    text-decoration: none;
+     font-weight: bold;
+     background-color: #333;
+     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 5px 13px -1px rgba(0,0,0,0.52);
+     transform: scale(1.05); /* Enlarge on hover */
+  
+  
+  a{
+  color: white;
+
+}
+} 
